@@ -117,7 +117,7 @@ body {
 .hero-image {
   background-image:
     linear-gradient(to right, #fffaf7 0%, rgba(255,250,247,0.3) 25%, rgba(255,250,247,0) 45%),
-    url("images/Laurels bed.jpeg");
+    url("images/laurelsbed.jpeg");
   background-size: cover;
   background-position: center;
 }
