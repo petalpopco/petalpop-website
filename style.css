@@ -42,11 +42,11 @@ body {
   text-transform: uppercase;
   font-size: 14px;
 }
-.logo img {
-    height: 120px;
-    width: auto;
-    display: block;
-    margin-bottom: 20px;
+.hero-logo img {
+  height: 120px;
+  width: auto;
+  display: block;
+  margin-bottom: 20px;
 }
 .active {
   color: #d94f70 !important;
