@@ -683,3 +683,15 @@ body {
   width: auto;
   display: block;
 }
+.included-graphic {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.included-graphic img {
+  max-width: 850px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
