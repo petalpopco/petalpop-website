@@ -43,10 +43,10 @@ body {
   font-size: 14px;
 }
 .logo img {
-    height: 160px;
+    height: 120px;
     width: auto;
     display: block;
-    margin-top: -30px;
+    margin-bottom: 20px;
 }
 .active {
   color: #d94f70 !important;
