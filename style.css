@@ -43,7 +43,7 @@ body {
   font-size: 14px;
 }
 .hero-logo img {
-  height: 120px;
+  height: 70px;
   width: auto;
   display: block;
   margin-bottom: 20px;
@@ -571,11 +571,17 @@ body {
     padding: 12px 22px;
   }
 
-  .hero {
-    display: flex;
-    flex-direction: column;
-    min-height: auto;
-  }
+ .hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  min-height: 620px;
+  padding: 60px;
+  gap: 40px;
+}
+.hero-text {
+  max-width: 520px;
+}
 
   .hero-text {
     padding: 50px 24px 35px;
