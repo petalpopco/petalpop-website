@@ -120,11 +120,12 @@ body {
 }
 
 .hero-image {
-  background-image:
-    linear-gradient(to right, #fffaf7 0%, rgba(255,250,247,0.3) 25%, rgba(255,250,247,0) 45%),
-    url("laurelsbed.jpeg");
+  min-height: 620px;
+  width: 100%;
+  background-image: url("laurelsbed.jpeg");
   background-size: cover;
   background-position: center;
+  border-radius: 0 0 0 120px;
 }
 
 .offers {
@@ -573,11 +574,11 @@ body {
 
  .hero {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   min-height: 620px;
   padding: 60px;
-  gap: 40px;
+  gap: 60px;
 }
 .hero-text {
   max-width: 520px;
