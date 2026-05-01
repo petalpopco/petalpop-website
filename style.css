@@ -42,6 +42,11 @@ body {
   text-transform: uppercase;
   font-size: 14px;
 }
+.nav-logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
 .hero-logo img {
   height: 140px;
   width: auto;
@@ -673,4 +678,8 @@ body {
   width: 100%;
   max-width: 850px;
   height: auto;
+}.nav-logo img {
+  height: 58px;
+  width: auto;
+  display: block;
 }
