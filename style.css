@@ -656,4 +656,20 @@ body {
   .contact-card {
     padding: 34px 24px;
   }
+}.included-text {
+  font-size: 15px;
+  color: #d94f70;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 28px;
+}.included-graphic {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 70px;
+}
+
+.included-graphic img {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
 }
