@@ -43,7 +43,7 @@ body {
   font-size: 14px;
 }
 .hero-logo img {
-  height: 70px;
+  height: 55px;
   width: auto;
   display: block;
   margin-bottom: 20px;
@@ -611,11 +611,14 @@ body {
     text-align: center;
   }
 
-  .hero-image {
-    min-height: 340px;
-    width: 100%;
-    background-position: center;
-  }
+ .hero-image {
+  min-height: 620px;
+  width: 100%;
+  background-image: url("laurelsbed.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 0 120px;
+}
 
   .offers,
   .cta,
