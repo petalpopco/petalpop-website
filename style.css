@@ -216,10 +216,10 @@ body {
   max-width: 620px;
   margin: 0 auto 35px;
   line-height: 1.7;
-}.services-hero {
+}
+.services-hero {
+  padding: 35px 20px 0;
   text-align: center;
-  padding: 80px 8% 40px;
-  background: #fff7f4;
 }
 
 .services-hero h1 {
@@ -246,7 +246,7 @@ body {
   gap: 34px;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 70px 5%;
+ padding: 0 5% 70px;
 }
 
 
