@@ -833,4 +833,8 @@ body {
   width: 90%;
   max-width: 700px;
   margin: 0 auto 30px;
+}.nav-logo img {
+  height: 80px;
+  width: auto;
+  display: block;
 }
