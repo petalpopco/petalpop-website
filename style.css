@@ -801,11 +801,12 @@ body {
     width: 90px;
     z-index: 2;
 }
-
-.badge-image {
-    width: 100%;
+.hero-photo-wrap .badge-image {
+    width: 110px;
     height: auto;
     display: block;
+    object-fit: contain;
+    border-radius: 0;
 }
 
 @media (max-width: 768px) {
