@@ -640,7 +640,13 @@ body {
   background-position: center;
   border-radius: 0 0 0 120px;
 }
-
+.hero-title-image {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  display: block;
+  margin-bottom: 28px;
+}
   .offers,
   .cta,
   .services-hero,
@@ -866,4 +872,8 @@ body {
 .bottom-logo img {
   height: 120px;
   width: auto;
+}.badge-image {
+  width: 220px;
+  height: auto;
+  display: block;
 }
