@@ -43,7 +43,7 @@ body {
   font-size: 14px;
 }
 .nav-logo img {
-  height: 55px;
+  height: 110px;
   width: auto;
   display: block;
 }
@@ -858,4 +858,12 @@ body {
   object-fit: cover;
   border-radius: 18px;
   margin-bottom: 32px;
+}.bottom-logo {
+  text-align: center;
+  padding: 50px 20px 70px;
+}
+
+.bottom-logo img {
+  height: 120px;
+  width: auto;
 }
