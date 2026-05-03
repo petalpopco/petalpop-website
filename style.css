@@ -796,19 +796,17 @@ body {
 
 .hero-badge {
   position: absolute;
-  right: 35px;
-  bottom: 35px;
-  width: 220px;
-  background: #fffaf7;
-  border-radius: 24px;
-  padding: 30px 24px;
-  text-align: center;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+  bottom: 28px;
+  right: 28px;
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
 }
-
-.badge-icon {
-  font-size: 28px;
-  color: #d94f70;
+.badge-image {
+  width: 120px;
+  height: auto;
+  display: block;
 }
 
 .hero-badge h3 {
@@ -816,12 +814,6 @@ body {
   color: #123324;
   font-size: 22px;
   margin: 10px 0;
-}
-
-.hero-badge p {
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -873,7 +865,7 @@ body {
   height: 120px;
   width: auto;
 }.badge-image {
-  width: 220px;
+  width: 135px;
   height: auto;
   display: block;
 }
