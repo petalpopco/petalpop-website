@@ -795,25 +795,17 @@ body {
 }
 
 .hero-badge {
-  position: absolute;
-  bottom: 28px;
-  right: 28px;
-  background: transparent;
-  box-shadow: none;
-  padding: 0;
-  border-radius: 0;
-}
-.badge-image {
-  width: 120px;
-  height: auto;
-  display: block;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    width: 180px;
 }
 
-.hero-badge h3 {
-  font-family: Georgia, serif;
-  color: #123324;
-  font-size: 22px;
-  margin: 10px 0;
+.badge-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 28px;
 }
 
 @media (max-width: 768px) {
@@ -864,8 +856,3 @@ body {
 .bottom-logo img {
   height: 120px;
   width: auto;
-}.badge-image {
-  width: 135px;
-  height: auto;
-  display: block;
-}
