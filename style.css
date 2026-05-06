@@ -808,7 +808,19 @@ body {
     object-fit: contain;
     border-radius: 0;
 }
+.bottom-logo {
+    text-align: center;
+    padding: 30px 20px 40px;
+    overflow: hidden;
+}
 
+.bottom-logo img {
+    display: block;
+    width: 160px;
+    max-width: 160px;
+    height: auto;
+    margin: 0 auto;
+}
 @media (max-width: 768px) {
 
 .choose-pop-image {
@@ -844,4 +856,4 @@ body {
   margin: 0 auto;
 }
 
-}
+} 
