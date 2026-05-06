@@ -592,23 +592,20 @@ body {
     padding: 12px 22px;
   }
 
- .hero {
+.hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  min-height: 620px;
-  padding: 60px;
-  gap: 60px;
+  grid-template-columns: 1fr;
+  padding: 40px 20px;
+  gap: 20px;
 }
 .hero-text {
   max-width: 520px;
 }
-
-  .hero-text {
-    padding: 50px 24px 35px;
-    text-align: center;
-    align-items: center;
-  }
+.hero-text {
+  padding: 20px 10px;
+  text-align: center;
+  align-items: center;
+}
 
   .hero h1 {
     font-size: 42px;
@@ -632,13 +629,13 @@ body {
     text-align: center;
   }
 
- .hero-image {
-  min-height: 620px;
+.hero-image {
+  min-height: 280px;
   width: 100%;
   background-image: url("laurelsbed.jpeg");
   background-size: cover;
   background-position: center;
-  border-radius: 0 0 0 120px;
+  border-radius: 20px;
 }
 
   .offers,
