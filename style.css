@@ -640,13 +640,7 @@ body {
   background-position: center;
   border-radius: 0 0 0 120px;
 }
-.hero-title-image {
-  width: 85%;
-  max-width: 360px;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px;
-}
+
   .offers,
   .cta,
   .services-hero,
@@ -820,6 +814,13 @@ body {
     max-width: 160px;
     height: auto;
     margin: 0 auto;
+}
+.hero-title-image {
+  width: 42%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto 18px;
 }
 @media (max-width: 768px) {
 
