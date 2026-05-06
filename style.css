@@ -641,11 +641,11 @@ body {
   border-radius: 0 0 0 120px;
 }
 .hero-title-image {
-  width: 100%;
-  max-width: 760px;
+  width: 85%;
+  max-width: 360px;
   height: auto;
   display: block;
-  margin-bottom: 28px;
+  margin: 0 auto 20px;
 }
   .offers,
   .cta,
@@ -825,8 +825,9 @@ body {
 
 .choose-pop-image {
     display: block;
-    width: 55%;
-    max-width: 520px;
+    width: 85%;
+    max-width: 360px;
+    height: auto;
     margin: 0 auto 20px;
 }
 
