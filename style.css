@@ -42,11 +42,6 @@ body {
   text-transform: uppercase;
   font-size: 14px;
 }
-.nav-logo img {
-  height: 110px;
-  width: auto;
-  display: block;
-}
 .hero-logo img {
   height: 140px;
   width: auto;
@@ -318,7 +313,9 @@ body {
   margin: 0 auto 30px;
   font-size: 18px;
   line-height: 1.7;
-}.included-section,
+}
+
+.included-section,
 .perennial-section,
 .bottom-cta {
   text-align: center;
@@ -357,7 +354,9 @@ body {
 
 .bottom-cta {
   background: #f8dfe4;
-}.coming-soon {
+}
+
+.coming-soon {
   min-height: 75vh;
   display: flex;
   justify-content: center;
@@ -397,7 +396,9 @@ body {
   line-height: 1.7;
   color: #234232;
   margin-bottom: 36px;
-}.about-page {
+}
+
+.about-page {
   background: #fff7f4;
   padding: 80px 8%;
 }
@@ -460,7 +461,9 @@ body {
   padding: 24px;
   font-weight: bold;
   color: #123324;
-}.contact-page {
+}
+
+.contact-page {
   padding: 80px 20px;
   background: #f8f4ee;
   color: #3b342c;
@@ -557,14 +560,18 @@ body {
   .contact-card {
     padding: 28px;
   }
-}.package-image {
+}
+
+.package-image {
   width: 100%;
   height: 240px;
   object-fit: cover;
   display: block;
   border-radius: 18px 18px 0 0;
   margin-bottom: 20px;
-}@media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
 
   .navbar {
     height: auto;
@@ -592,18 +599,20 @@ body {
     padding: 12px 22px;
   }
 
-.hero {
-  display: grid;
-  grid-template-columns: 1fr;
- padding: 20px 16px;
-  gap: 20px;
-}
-.hero-text {
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+  .hero-text {
   width: 100%;
 }
   .hero h1 {
-    font-size: 42px;
+    font-size: clamp(42px, 8vw, 92px);
     line-height: 1.05;
+    max-width: 100%;
   }
   .hero p {
     font-size: 16px;
@@ -622,14 +631,14 @@ body {
     text-align: center;
   }
 
-.hero-image {
-  min-height: 220px;
-  width: 100%;
-  background-image: url("laurelsbed.jpeg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 20px;
-}
+  .hero-image {
+    min-height: 220px;
+    width: 100%;
+    background-image: url("laurelsbed.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+  }
 
   .offers,
   .cta,
@@ -644,11 +653,16 @@ body {
 
   .offers h2,
   .cta h2,
-  .services-hero h1,
   .about-card h1,
   .coming-card h1,
   .contact-hero h1 {
     font-size: 36px;
+  }
+
+  .services-hero h1 {
+    font-size: clamp(42px, 10vw, 68px);
+    line-height: 1.05;
+    padding: 0 10px;
   }
 
   .offer-cards,
@@ -666,24 +680,17 @@ body {
   .contact-card {
     padding: 34px 24px;
   }
-}.included-text {
+}
+
+.included-text {
   font-size: 15px;
   color: #d94f70;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 28px;
   }
-.included-graphic {
-  display: flex;
-  justify-content: center;
-  margin: 40px auto 70px;
-}
 
-.included-graphic img {
-  width: 100%;
-  max-width: 850px;
-  height: auto;
-}.nav-logo img {
+.nav-logo img {
   height: 58px;
   width: auto;
   display: block;
@@ -699,7 +706,9 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
-}.new-hero {
+}
+
+.new-hero {
   display: grid;
   grid-template-columns: 40% 60%;
   align-items: center;
@@ -847,5 +856,80 @@ body {
   height: auto;
   margin: 0 auto;
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
-} 
+.services-hero,
+.package-section {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.choose-pop-image,
+.hero-title-image {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.services-hero h1 {
+  font-size: clamp(38px, 8vw, 68px);
+  line-height: 1.05;
+  max-width: 100%;
+}
+@media (max-width: 1100px) {
+  .choose-pop-image,
+  .hero-title-image {
+    width: 78vw !important;
+    max-width: 78vw !important;
+    height: auto !important;
+    display: block;
+    margin: 40px auto 20px;
+  }
+
+  .services-hero {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+  }
+  @media (max-width: 1200px) {
+  .services-hero h1 {
+    font-size: 70px;
+    line-height: 1.05;
+  }
+
+  .services-hero h1 span {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 900px) {
+  .services-hero h1 {
+    font-size: 52px;
+  }
+}
+}
+@media (max-width: 1200px) {
+  .services-hero h1 {
+    font-size: 64px !important;
+    line-height: 1 !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    text-align: center !important;
+  }
+
+  .services-hero h1 span {
+    display: block !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .services-hero h1 {
+    font-size: 48px !important;
+  }
+}
+}
