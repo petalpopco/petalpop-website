@@ -931,5 +931,57 @@ body {
   .services-hero h1 {
     font-size: 48px !important;
   }
+}.gallery-section {
+  padding: 100px 8%;
+  background-color: #f8f6f2;
+  text-align: center;
+}
+
+.gallery-section h1 {
+  font-size: 52px;
+  margin-bottom: 12px;
+  color: #3d3d3d;
+}
+
+.gallery-section p {
+  font-size: 18px;
+  color: #6d6d6d;
+  margin-bottom: 50px;
+}
+
+.gallery-grid {
+  columns: 3 280px;
+  column-gap: 20px;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  break-inside: avoid;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  .gallery-grid {
+    columns: 2 160px;
+  }
+
+  .gallery-section h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  .gallery-grid {
+    columns: 1;
+  }
 }
 }
