@@ -1040,3 +1040,10 @@ body {
     height: 280px !important;
   }
 }
+.fixed-photo {
+  width: 100% !important;
+  height: 320px !important;
+  object-fit: cover !important;
+  max-width: 100% !important;
+  display: block !important;
+}
