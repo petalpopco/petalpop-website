@@ -5,33 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery | Petal Pop Co.</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HWCSCD2NZE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-HWCSCD2NZE');
-</script>
+  <style>
+    .gallery-section {
+      padding: 80px 8% !important;
+      background-color: #fbf6f1 !important;
+      text-align: center !important;
+    }
+
+    .gallery-section h1 {
+      font-size: 44px !important;
+      color: #143d2c !important;
+      margin-bottom: 10px !important;
+    }
+
+    .gallery-section p {
+      font-size: 18px !important;
+      color: #143d2c !important;
+      margin-bottom: 35px !important;
+    }
+
+    .gallery-grid {
+      display: grid !important;
+      grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+      gap: 22px !important;
+      max-width: 1200px !important;
+      margin: 0 auto !important;
+    }
+
+    .gallery-grid img {
+      width: 100% !important;
+      height: 320px !important;
+      object-fit: cover !important;
+      display: block !important;
+      border-radius: 22px !important;
+      max-width: 100% !important;
+    }
+
+    @media (max-width: 900px) {
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .gallery-grid {
+        grid-template-columns: 1fr !important;
+      }
+
+      .gallery-grid img {
+        height: 280px !important;
+      }
+    }
+  </style>
+</head>
 
 <body>
 
 <nav class="navbar">
+  <div class="nav-logo">
+    <img src="logodone.png" alt="Petal Pop Co. logo">
+  </div>
 
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="gallery.html">Bloom Gallery</a>
+    <a href="about.html">Our Story</a>
+    <a href="contact.html">Contact</a>
+  </div>
 
-<div class="nav-logo">
-  <img src="logodone.png" alt="Petal Pop Co. logo">
-</div>
-
- <div class="nav-links">
-  <a href="index.html">Home</a>
-  <a href="packages.html">Packages</a>
-  <a href="gallery.html">Bloom Gallery</a>
-  <a href="about.html">Our Story</a>
-  <a href="contact.html">Contact</a>
-</div>
   <a class="quote-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe4G_nBCtIyuBEZKjQLi852fs2UCQ8Fv5giC_mKcTBj050xfw/viewform?usp=header" target="_blank">
     Book My Pop
   </a>
@@ -41,19 +84,16 @@
   <h1>Bloom Gallery</h1>
   <p>A peek at the spaces we’ve popped.</p>
 
-<div class="gallery-grid">
-  <img class="gallery-photo" src="1.JPEG" alt="Petal Pop garden design">
-  <img class="gallery-photo" src="2.JPEG" alt="Petal Pop flower bed">
-  <img class="gallery-photo fixed-photo" src="3.jpg" alt="Petal Pop flowers">
-
-<img class="gallery-photo fixed-photo" src="4.jpg" alt="Petal Pop landscape design">
-
-<img class="gallery-photo fixed-photo" src="8.jpg" alt="Petal Pop curb appeal">
-  <img class="gallery-photo" src="5.png" alt="Petal Pop garden bed">
-  <img class="gallery-photo" src="6.png" alt="Petal Pop flowers">
-  <img class="gallery-photo" src="7.jpeg" alt="Petal Pop perennial design">
-  
-</div>
+  <div class="gallery-grid">
+    <img src="1.JPEG" alt="Petal Pop garden design">
+    <img src="2.JPEG" alt="Petal Pop flower bed">
+    <img src="3.jpg" alt="Petal Pop flowers">
+    <img src="4.jpg" alt="Petal Pop landscape design">
+    <img src="5.png" alt="Petal Pop garden bed">
+    <img src="6.png" alt="Petal Pop flowers">
+    <img src="7.jpeg" alt="Petal Pop perennial design">
+    <img src="8.jpg" alt="Petal Pop curb appeal">
+  </div>
 </section>
 
 </body>
