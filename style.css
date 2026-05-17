@@ -926,11 +926,12 @@ body {
     display: block !important;
   }
 }
-
 @media (max-width: 900px) {
   .services-hero h1 {
     font-size: 48px !important;
   }
+}
+
 .gallery-section {
   padding: 80px 8%;
   background-color: #fbf6f1;
@@ -963,7 +964,6 @@ body {
   object-fit: cover;
   display: block;
   border-radius: 22px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 @media (max-width: 900px) {
